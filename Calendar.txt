@@ -1,0 +1,22 @@
+Index.html
+1) <meta charset="UTF-8">
+In other words, <meta charset="utf-8"> tells the browser to use the utf-8 character encoding when translating machine code into human-readable text and
+vice versa to be displayed in the browser.
+
+2) <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+This gives the browser instructions on how to control the page's dimensions and scaling.
+The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+3) <link rel="stylesheet" href="app.css">
+The REL attribute is used to define the relationship between the linked file and the HTML document. REL=StyleSheet specifies a persistent or preferred style.
+
+App.js
+1) let calendar = document.querySelector('.calendar')
+The Let Keyword allows you to declare variables that are limited to the scope of a block statement, or expression on which it is used,
+The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors.
+If no matches are found, null is returned.
+
+2) const month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+The const keyword specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
